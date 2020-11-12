@@ -15,8 +15,4 @@ urlpatterns = [
 
 
 	path('send_email/', views.sendEmail, name="send_email"),
-
-	path('login/', views.loginPage, name="login"),
-	path('register/', views.registerPage, name="register"),
-	path('logout/', views.logoutUser, name="logout"),
 ]
